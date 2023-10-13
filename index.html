@@ -14,10 +14,20 @@
   <h2>Details</h2>
   <details>
     <summary>LiquidOS status</summary>
-    Working os (still)
-  <button id="aboutme">About me</button>
-  <button id="subsitetest">SUBSITE TEST</button>
+    Working on my os (still no releases xd)
   </details>
+   <button onclick="aboutme()">About me</button>
+   <script>
+    document.getElementById("aboutme").addEventListener("click", aboutme);
+    function redirect(){ window.location = "https://fluid-developer.github.io/aboutme.html"; }
+      }
+   </script>
+   <button onclick="subsitetest()">About me</button>
+   <script>
+    document.getElementById("subsitetest").addEventListener("click", subsitetest);
+    function redirect(){ window.location = "https://fluid-developer.github.io/subsite.html"; }
+      }
+   </script>
     </main>
   </body>
 </html>
