@@ -1,3 +1,4 @@
+/* canvas */
 img {
   max-width: 400px;
   border: 1px solid black;
@@ -9,8 +10,14 @@ img {
   width: 25px;
 }
 
-body { background-color: #1B1B1F; }
+/* body props */
+body { 
+  background-color: #1B1B1F;
+  color: #59dee3;
+  font-family: Arial
+  } 
 
+/* other props */
 @font-face {
     font-family: 'Baloo 2';
     src: url('/OpenSansFonts/OpenSans-LightItalic.ttf') format('truetype');
