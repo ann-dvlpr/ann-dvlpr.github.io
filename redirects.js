@@ -8,3 +8,5 @@ function subsitetest(){
   document.getElementById("subsitetest").addEventListener("click", subsitetest);
   function redirect(){ window.location = "https://fluid-developer.github.io/subsite.html"; }
   {
+
+// hi
