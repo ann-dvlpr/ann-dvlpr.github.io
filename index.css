@@ -27,7 +27,8 @@ body {
 } 
 
 .emoji {
-  width: 8px;
+  width: 4px;
+  border: none
 }
 
 /* buttons */
