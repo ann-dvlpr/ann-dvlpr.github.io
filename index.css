@@ -19,10 +19,10 @@ body {
 
 /* other props */
 @font-face {
-    font-family: 'Baloo 2';
-    src: url('/OpenSansFonts/OpenSans-LightItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
+  font-family: "baloo2";
+  src: url("../Baloo2-SemiBold.ttf") format("truetype");
+* {
+  font-family: "baloo2";
 }
 
 /* buttons */
