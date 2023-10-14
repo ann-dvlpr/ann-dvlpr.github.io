@@ -21,9 +21,9 @@ body {
 @font-face {
   font-family: "baloo2";
   src: url("../Baloo2-SemiBold.ttf") format("truetype");
-* {
+/* * {
   font-family: "baloo2";
-}
+} */
 
 /* buttons */
 .button {
