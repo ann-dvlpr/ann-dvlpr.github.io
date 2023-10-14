@@ -26,6 +26,10 @@ body {
   font-family: "baloo2";
 } 
 
+.emoji {
+  width: 36px;
+}
+
 /* buttons */
 .button {
   background-color: #4CAF50;
