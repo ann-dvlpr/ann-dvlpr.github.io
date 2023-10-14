@@ -32,7 +32,7 @@ body {
 }
 
 details {
-  width: 26%;
+  width: 400px;
   margin-bottom: .5rem;
   box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
   border-radius: 12px;
