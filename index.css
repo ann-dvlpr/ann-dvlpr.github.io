@@ -17,6 +17,15 @@ body {
   font-family: Arial
   } 
 
+/* other props */
+@font-face {
+  font-family: "baloo2";
+  src: url("../Baloo2-SemiBold.ttf") format("truetype");
+}
+* {
+  font-family: "baloo2";
+} 
+
 /* buttons */
 .button {
   background-color: #4CAF50;
