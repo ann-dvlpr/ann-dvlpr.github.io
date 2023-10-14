@@ -24,3 +24,119 @@ body {
     font-weight: 300;
     font-style: italic;
 }
+
+/* making good dropdowns... */
+:root {
+  --accordion-min-height: 56px;
+  --accordion-max-height: 300px;
+}
+
+details {
+  width: 50%;
+  margin: 0 auto ;
+  margin-bottom: .5rem;
+  box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
+  border-radius: 4px;
+  overflow: hidden;
+  animation-name: accordion-close;
+  animation-duration: 0.4s;
+  animation-timing-function: ease-in-out;
+  transform-origin: top;
+}
+
+details[open] {
+  animation-name: accordion-master;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  transform-origin: top;
+}
+
+@keyframes accordion-master {
+  from {max-height: var(--accordion-min-height);}
+  to {max-height: var(--accordion-max-height);}
+}
+
+@keyframes accordion-close {
+  from {min-height: var(--accordion-max-height);}
+  to {min-height: var(--accordion-min-height);}
+}
+
+summary {
+  padding: 1rem;
+  display: block;
+  background: #ffffff;
+  position: relative;
+  cursor: pointer;
+}
+
+summary:before {
+  content: '';
+background-image: url(https://raw.githubusercontent.com/microsoft/fluentui-system-icons/master/assets/Chevron%20Right/SVG/ic_fluent_chevron_right_48_filled.svg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  top: 1rem;
+  right: 1rem;
+  transform: rotate(90deg);
+  transition: .25s transform ease;
+}
+
+details[open] > summary:before {
+  transform: rotate(270deg);
+}
+
+details summary::-webkit-details-marker {
+  display:none;
+}
+
+details > ul {
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+  opacity: 0;
+  transition: 0.3s;
+  height: 0;
+  background: #ffffff;
+  margin-top: 0;
+  padding-top: 1rem;
+  animation-name: accordion-content-close;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+}
+
+details[open] > ul {
+  opacity: 1;
+  height: auto;
+  animation-name: accordion;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  transform-origin: top;
+}
+
+@keyframes accordion {
+  from {transform: scaleY(0); opacity: 0;}
+  to {transform: scaleY(1); opacity: 1;}
+}
+
+@keyframes accordion-content-close {
+  from {margin-top: 0;}
+  to {margin-top: -300px;}
+}
+
+details[open] > ul > li {
+  color: #333333;
+  opacity: 0;
+  animation-name: accordion-content;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes accordion-content {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
