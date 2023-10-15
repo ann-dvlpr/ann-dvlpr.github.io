@@ -1,3 +1,11 @@
+:root {
+  --bg: #1B1B1F;
+  --accent: #4a8380;
+  --accent2: #c2c2c2;
+  --text: #00ffff;
+  --button-text: #000000;
+}
+
 /* canvas */
 img {
   max-width: 400px;
@@ -12,8 +20,8 @@ img {
 
 /* body props */
 body { 
-  background-color: #1B1B1F;
-  color: #59dee3;
+  background-color: var(--bg);
+  color: var(--text);
   font-family: Arial
   } 
 
@@ -32,9 +40,9 @@ body {
 
 /* buttons */
 .button {
-  background-color: #4CAF50;
+  background-color: var(--accent);
   border: none;
-  color: white;
+  color: var(--accent2);
   padding: 8px 16px;
   text-align: center;
   text-decoration: none;
@@ -44,14 +52,14 @@ body {
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 12px;
-  background-color: white; 
-  color: black; 
-  border: 3px solid #4a8380;
+  background-color: var(--accent2); 
+  color: var(--button-text); 
+  border: 3px solid var(--accent);
   text-decoration: none;
 }
 .button:hover {
-  background-color: #4a8380;
-  color: white;
+  background-color: var(--accent);
+  color: var(--accent2);
   box-shadow: 0 16px 32px 0 rgba(0,0,0,0.24), 0 10px 50px 0 rgba(0,0,0,0.19);
 }
 
@@ -64,8 +72,8 @@ summary {
   }
   padding: 1rem;
   display: block;
-  background: white;
-  color: cyan;
+  background: var();
+  color: var(--text);
   padding-left: 2.2rem;
   position: relative;
   cursor: pointer;
@@ -76,9 +84,9 @@ details {
   max-width: 400px;
   box-sizing: border-box;
   margin-top: 5px;
-  background: white;
+  background: var(--accent2);
   border-radius: 12px;
-  border: 3px solid #4a8380;
+  border: 3px solid var(--accent);
   outline: none;
 }
 details summary::-webkit-details-marker {
