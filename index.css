@@ -57,6 +57,7 @@ body {
   color: var(--button-text); 
   border: 3px solid var(--accent);
   text-decoration: none;
+  align-items:center;
 }
 .button:hover {
   background-color: var(--accent);
@@ -70,7 +71,7 @@ summary {
   outline: none;
   &:focus {
     border-color: none;
-  }
+  align-items:center;
   padding: 1rem;
   display: block;
   background: var();
@@ -89,6 +90,7 @@ details {
   border-radius: 12px;
   border: 3px solid var(--accent);
   outline: none;
+  align-items:center;
 }
 details summary::-webkit-details-marker {
   display:none;
@@ -117,6 +119,7 @@ summary:before {
   border-top: none;
   border-radius: 12px;
   outline: none;
+  align-items:center;
 }
 
 p {
@@ -124,9 +127,11 @@ p {
   padding-bottom: 10px;
   &:last-child {
     padding: 0;
+    align-items:center;
   }
   
 }
 img {
   max-width: 100%;
+  align-items:center;
 }
