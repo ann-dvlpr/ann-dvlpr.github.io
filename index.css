@@ -63,7 +63,7 @@ body {
 }
 .button:hover {
   background-color: var(--accent);
-  color: var(--accent2);
+  color: var(--button-background);
   box-shadow: 0 16px 32px 0 rgba(0,0,0,0.24), 0 10px 50px 0 rgba(0,0,0,0.19);
 }
 
