@@ -4,7 +4,7 @@
   --button-background: #000000;
   --text: #4a8380;
   --button-text: #ffffff;
-  --font: "fonts/LINESeedSans_A_Rg.ttf";
+  --font: "./fonts/LINESeedSans_A_Rg.ttf";
 }
 
 /* canvas */
