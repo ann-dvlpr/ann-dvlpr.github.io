@@ -8,6 +8,10 @@
 
 /* canvas */
 img {
+  padding-top: 50px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
   border="0;
   max-width: 100%;
   align-items:center;
