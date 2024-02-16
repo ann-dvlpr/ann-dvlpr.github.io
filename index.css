@@ -23,7 +23,8 @@ img {
 body { 
   background-color: var(--background);
   color: var(--text);
-  font-family: Arial
+  font-family: Arial;
+  align: center;
   } 
 
 /* other props */
