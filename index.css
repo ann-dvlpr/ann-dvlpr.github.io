@@ -33,11 +33,11 @@ body {
 
 /* other props */
 @font-face {
-  font-family: "custom";
-  src: ./fonts/LINESeedSans_A_Rg.ttf format("truetype");
+  font-family: "LINESeedSans";
+  src: url("./fonts/LINESeedSans_A_Rg.ttf") format("truetype");
 }
 * {
-  font-family: "baloo2";
+  font-family: "LINESeedSans";
 } 
 
 .emoji {
