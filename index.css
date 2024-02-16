@@ -15,7 +15,7 @@
 * { font-family: "PSr"; align-items: center;} 
 .emoji { width: 16px; border: none; }
 .logo { margin-top: 5px; }
-.outline-box { border-radius: 24px; border: 3px solid var(--accent); max-width: 400px; }
+.outline-box { border-radius: 24px; border: 3px solid var(--accent); max-width: 400px;  margin-bottom: 5px; }
 details summary::-webkit-details-marker { display:none; }
 body { background-color: var(--background); color: var(--text); font-family: Arial; }
 
