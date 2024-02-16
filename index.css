@@ -34,7 +34,7 @@ body {
 /* other props */
 @font-face {
   font-family: "custom";
-  src: url("./fonts/LINESeedSans_A_Rg.ttf") format("truetype");
+  src: url(https://github.com/fluid-developer/fluid-developer.github.io/raw/main/fonts/LINESeedSans_A_Rg.ttf) format("truetype");
 }
 * {
   font-family: "baloo2";
