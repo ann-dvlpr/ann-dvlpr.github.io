@@ -33,11 +33,27 @@ body {
 
 /* other props */
 @font-face {
-  font-family: "LINESeedSans";
+  font-family: "LSSr";
   src: url("./fonts/LINESeedSans_A_Rg.ttf") format("truetype");
 }
+@font-face {
+  font-family: "LSSxbd";
+  src: url("./fonts/LINESeedSans_A_XBd.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Baloo2";
+  src: url("./fonts/Baloo2-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PSb";
+  src: url("./fonts/ProductSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PSr";
+  src: url("./fonts/ProductSans-Regular.ttf") format("truetype");
+}
 * {
-  font-family: "LINESeedSans";
+  font-family: "PSr";
 } 
 
 .emoji {
