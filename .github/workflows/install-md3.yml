@@ -1,1 +1,2 @@
-run npm install @material/web
+      - name: install-md3
+        run: npm install @material/web
