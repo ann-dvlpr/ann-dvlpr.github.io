@@ -4,7 +4,6 @@
   --button-background: #000000;
   --text: #4a8380;
   --button-text: #ffffff;
-  --font: "./fonts/LINESeedSans_A_Rg.ttf";
 }
 
 /* canvas */
@@ -35,7 +34,7 @@ body {
 /* other props */
 @font-face {
   font-family: "custom";
-  src: url(var(--font)) format("truetype");
+  src: url(./fonts/LINESeedSans_A_Rg.ttf) format("truetype");
 }
 * {
   font-family: "baloo2";
