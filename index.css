@@ -3,7 +3,7 @@
   --accent: #4a8380;
   --button-background: #000000;
   --text: #4a8380;
-  --button-text: #4a8380;
+  --button-text: #ffffff;
 }
 
 /* canvas */
@@ -53,7 +53,7 @@ body {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-  border-radius: 24px;
+  border-radius: 16px;
   background-color: var(--button-background);
   color: var(--button-text); 
   border: 3px solid var(--accent);
@@ -81,7 +81,7 @@ summary {
   padding-left: 2.2rem;
   position: relative;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 24px;
   outline: none;
 }
 details {
@@ -89,7 +89,7 @@ details {
   box-sizing: border-box;
   margin-top: 5px;
   background: var(--button-background);
-  border-radius: 12px;
+  border-radius: 24px;
   border: 3px solid var(--accent);
   outline: none;
   align-items:center;
