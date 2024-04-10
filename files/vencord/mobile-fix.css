@@ -1,3 +1,5 @@
 :root {
   --app-bg: url(https://i.imgur.com/bgmVeyt.jpg);
+  --app-radius: 5px;
+  --textarea-radius: 5px;
 }
