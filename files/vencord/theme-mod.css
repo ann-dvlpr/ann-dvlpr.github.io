@@ -2,7 +2,7 @@
   --app-bg: 64, 64, 64;
   --app-blur: 14px;
   --app-margin: 10px;
-  --app-radius: 5px;
+  --app-radius: 24px;
   --main-rgb: 0,0,0;
   --main-content-opacity: 0.2;
   --sidebar-opacity: 0.4;
@@ -13,5 +13,5 @@
   --accent-lightness: 45%;
   --accent-hsl: var(--accent-hue),calc(var(--accent-saturation) * var(--saturation-factor)),var(--accent-lightness);
   --accent-opacity: 1;
-  --textarea-radius: 5px;
+  --textarea-radius: 24px;
  }
