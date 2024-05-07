@@ -20,6 +20,10 @@ details summary::-webkit-details-marker { display: none; }
 body { background-color: var(--background); color: var(--text); font-family: Arial; }
 .links { padding: 8px 0px 8px }
 
+/* Logo things */
+.logo-base { position: relative; display: inline; }
+.logo-overlay { position: absolute; bottom: 0; right: 0; }
+
 /* HYPERLINKS (they arent blocked xd)*/
 .link-v2 {
   transition-duration: 0.4s;
