@@ -50,6 +50,7 @@ body { background-color: var(--background); color: var(--text); font-family: Ari
 }
 
 .outline-box {
+  margin-top: 5px;
   border-radius: 24px;
   border: 3px solid var(--accent);
   max-width: 400px;
